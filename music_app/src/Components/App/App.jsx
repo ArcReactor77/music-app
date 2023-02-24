@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import React from 'react'
 import '../App/App.css'
-// import Playlist from '../Playlist/Playlist'
+import Playlist from '../Playlist/Playlist'
 import SearchBar from './/SearchBar/SearchBar'
-// import SearchResults from '../SearchResults/SearchResults'
-// import Spotify from '../util/Spotify'
+import SearchResults from '../SearchResults/SearchResults'
+import Spotify from '../util/Spotify'
 
 class App extends React.Component {
   constructor(props) {
